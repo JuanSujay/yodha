@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge"> 
+    <meta name="viewport" content="width=device-width", initial-scale="1.0"> 
+    <title>YODHA- </title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="index.css"> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/jpeg" sizes="32x32" href="22.jpeg">
+<link rel="icon" type="image/jpeg" sizes="16x16" href="22.jpeg">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <!-- Navigation -->
+
+    <nav>
+        <img src="21.jpeg" alt="This is the logo">
+        <div class="Navigation">
+            <ul>
+                <i id="menu-close" class="far fa-window-close"></i>
+                <li><a href="#">HOME</a></li>
+                <li><a href="categories.html">CATEGORIES</a></li>
+                <li><a href="catehome.html">HOME REMIDES</a></li>
+                <li><a href="catemedi.html">MEDICAL REMIDES</a></li>
+            </ul>
+            <img id="menu-button" src="img/menu.png" alt="">
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+        <h2>Why Choose YODHA?</h2>
+        <p>THE AIM FOR DEVELOPING THIS APP IS TO GET RID FROM THE DISEASES WITHOUT GOING TO THE HOSPITAL AND VISIT THE DOCTOR WITHOUT THE REASONS . IF THE DISESASE IS VERY SERIOUS THEN THE APP RECOMENDS THEM TO VISIT THE DOCTOR AND SHOWS TO NEARBY HOSPITALS.
+            IF THEY HAVE COMMON ILLNESS THEN IT SHOWS THEM YOU HAVE A COMMON DISEASE AND THE APP GIVES THE PRECIPTION FROM THE VERIFIRED DOCTORS WITHOUT PAYING THEM
+            </p>
+       
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <div class="footer-container container">
+            <div class="footer-logo">
+                <img src="21.jpeg" alt="" width="150" height="150">
+            </div>
+            <div class="link-lists">
+                <h3>Main Links</h3>
+                <ul>
+                    <a href="#"><li>Order Tracking</li></a>
+                    <a href="#"><li>New Order</li></a>
+                    <a href="#"><li>Contact Us</li></a>
+                    <a href="#"><li>News & Blogs</li></a>
+                </ul>
+            </div>
+            <div class="link-lists">
+                <h3>Support</h3>
+                <ul>
+                    <a href="#"><li>About Us</li></a>
+                    <a href="#"><li>Privacy Policy</li></a>
+                    <a href="#"><li>Terms & Conditions</li></a>
+                </ul>
+            </div>
+            <div class="news-letter">
+                <h3>Support</h3>
+                <input type="email" placeholder="Enter your email">
+                <h3>Follow Us</h3>
+                <div class="icon-container">
+                    <div class="icon">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                    </div>
+                    <div class="icon">
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </div>
+                    <div class="icon">
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </div>
+                    <div class="icon">
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script> 
+        $('#menu-button').click(function(){
+            $('nav .Navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .Navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+
+</html>
